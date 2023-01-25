@@ -1,0 +1,6 @@
+print("Enter numbers: 12345")
+print(pow(1,1))
+print(pow(2,2))
+print(3*3)
+print(4*4)
+print(5*5)

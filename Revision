@@ -1,0 +1,47 @@
+# DATA TYPES
+a=10 #int
+b=1.0 #float
+c=10j #complex
+d= True/False #boolean
+e= 'adv' #single quote
+f= "adv" #double quote
+g= """adv""" #triple quote for documentation
+l=[1,2,3,4,5] #collection of elements of any datatype,mutable,index based
+t=(1,2,3,4,5,6) #collection of elements of any datatype,immutable
+set={1,2,3,4} #collection of elements of any datatype,mutable,dont allow duplicate values,unordered
+#LIST METHODS
+l.append(2)
+print(l)
+l.insert(5,9)
+res=l.pop()#index
+print(res) #prints deleting value
+res=l.remove(5) #value
+res=l.remove() #error
+print(res) #None
+print(l)
+res=l.count(2) #frequency
+a=[1,2]
+b=[3,4]
+a.extend(b) #b values added to a
+print(a)
+a.sort() #ascending by default
+a.sort(reverse=True)
+#TUPLE
+t=(1,2,3,4,5)
+t.count(5) #no of times element is repeating
+res=t.index(3) #retuns index of element
+t1=(1,2,1)
+res=t1.index(3) #retuns index of element first attendance
+# SET METHODS
+s1={1,2,3,4}
+s2={3,4,5,6}
+res1=s1.intersection(s2)
+res2=s1.union(s2)
+res3=s1.difference(s2)
+add,copy,clear
+res4=s1.difference_update(s2)
+
+
+
+
+
